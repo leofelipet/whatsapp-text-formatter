@@ -57,7 +57,7 @@ cd whatsapp-text-formatter
 ```
 
 ### Opção 2: Usar Online
-Acesse diretamente pelo GitHub Pages: https://leofelipet.github.io/whatsapp-text-formatter/
+Acesse diretamente pelo GitHub Pages: [Aqui](https://leofelipet.github.io/whatsapp-text-formatter/)
 
 ## 📁 Estrutura do Projeto
 
@@ -113,12 +113,6 @@ Lista de tarefas:
 * Enviar relatório
 ```
 
-### Código
-```
-Para executar o comando use:
-`npm install`
-```
-
 ## 🤝 Contribuindo
 
 1. Faça um fork do projeto
@@ -142,11 +136,10 @@ Para executar o comando use:
 
 ## 📝 Roadmap
 
-- [ ] Suporte a mais formatações
+- [ ] Suporte a botões de formatação
 - [ ] Tema escuro
 - [ ] Histórico de mensagens
-- [ ] Exportar como imagem
-- [ ] Suporte a emojis personalizados
+- [ ] Suporte a emojis direto no editor
 
 ## 📄 Licença
 
@@ -155,7 +148,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## 👨‍💻 Autor
 
 **Leo Felipe**
-- GitHub: [@seuusuario](https://github.com/seuusuario)
+- GitHub: [@leofelipet](https://github.com/leofelipet)
 
 ## 🙏 Agradecimentos
 
