@@ -57,7 +57,7 @@ cd whatsapp-text-formatter
 ```
 
 ### Opção 2: Usar Online
-Acesse diretamente pelo GitHub Pages: [Link aqui quando publicar]
+Acesse diretamente pelo GitHub Pages: https://leofelipet.github.io/whatsapp-text-formatter/
 
 ## 📁 Estrutura do Projeto
 
