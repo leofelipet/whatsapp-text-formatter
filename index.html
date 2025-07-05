@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatador de Texto WhatsApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>📱 Formatador WhatsApp</h1>
+            <p>Formate seu texto e copie para usar no WhatsApp</p>
+        </header>
+
+        <main class="main-content">
+            <div class="editor-section">
+                <h2>✍️ Editor</h2>
+                <div class="help-text">
+                    <p><strong>Formatação:</strong> *negrito* | _itálico_ | ~tachado~ | ```mono``` | `código` | > citação</p>
+                </div>
+                <textarea 
+                    id="input-text" 
+                    class="input-textarea" 
+                    placeholder="Digite seu texto aqui...
+
+Exemplos:
+*Este texto ficará em negrito*
+_Este texto ficará em itálico_
+~Este texto ficará tachado~
+```Este texto ficará monoespaçado```
+`código inline`
+
+> Esta é uma citação
+
+* Item da lista
+* Outro item
+
+1. Primeiro item
+2. Segundo item"></textarea>
+                <div class="editor-controls">
+                    <button id="copy-btn" class="copy-button">
+                        📋 Copiar Texto
+                    </button>
+                </div>
+            </div>
+
+            <div class="preview-section">
+                <div class="phone-mockup">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <div class="whatsapp-header">
+                                <div class="contact-info">
+                                    <div class="contact-avatar">
+                                        <span>👤</span>
+                                    </div>
+                                    <div class="contact-details">
+                                        <div class="contact-name">Contato</div>
+                                        <div class="contact-status">online</div>
+                                    </div>
+                                </div>
+                                <div class="header-actions">
+                                    <span class="action-btn">📞</span>
+                                    <span class="action-btn">📹</span>
+                                    <span class="action-btn">⋮</span>
+                                </div>
+                            </div>
+                            <div class="whatsapp-chat">
+                                <div id="preview" class="chat-messages">
+                                    <div class="message-placeholder">
+                                        <p>Digite algo no editor para ver como ficará no WhatsApp!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="whatsapp-input">
+                                <div class="input-bar">
+                                    <span class="input-emoji">😊</span>
+                                    <div class="input-text-area">Mensagem</div>
+                                    <span class="input-mic">🎤</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <p>Feito com ❤️ para facilitar suas mensagens no WhatsApp</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
